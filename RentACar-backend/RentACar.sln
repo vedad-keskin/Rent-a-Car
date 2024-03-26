@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.7.34024.191
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentACar", "RentACar.csproj", "{87FE6CCC-AA52-4690-A8C8-698102A6F266}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EDE0C3F7-F2C2-4CBC-982A-0298EF616127}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentACar", "Rent-a-Car\RentACar.csproj", "{F8ACA50D-100E-4D02-9A6B-D794BE0B5401}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +16,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{87FE6CCC-AA52-4690-A8C8-698102A6F266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{87FE6CCC-AA52-4690-A8C8-698102A6F266}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{87FE6CCC-AA52-4690-A8C8-698102A6F266}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{87FE6CCC-AA52-4690-A8C8-698102A6F266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8ACA50D-100E-4D02-9A6B-D794BE0B5401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8ACA50D-100E-4D02-9A6B-D794BE0B5401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8ACA50D-100E-4D02-9A6B-D794BE0B5401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8ACA50D-100E-4D02-9A6B-D794BE0B5401}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {272059B7-25C5-4E90-B948-B2267C4C1F57}
+		SolutionGuid = {D9E3DF83-E465-4A78-A954-937A38910A12}
 	EndGlobalSection
 EndGlobal

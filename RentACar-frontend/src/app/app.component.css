@@ -1,0 +1,13 @@
+section{
+  padding: 60px 0;
+}
+#logo{
+  width: 100px;
+}
+
+a{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
