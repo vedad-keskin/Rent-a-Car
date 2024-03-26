@@ -29,7 +29,7 @@ namespace RentACar.Controllers
         [HttpPost("CreateNewUser")]
         public IActionResult CreateNewUser(CreateUserRequest request)
         {
-            var response= service.CreateNewUser(request);
+            var response = service.CreateNewUser(request);
             return Ok(response);
         }
 

@@ -5,6 +5,7 @@ using RentACar.DBContext;
 using RentACar.Service.Interface;
 using RentACar.DataModels.Responses.User;
 using RentACar.DataModels.Requests.User;
+using Microsoft.EntityFrameworkCore;
 
 namespace RentACar.Service.Methods
 {
@@ -13,7 +14,7 @@ namespace RentACar.Service.Methods
         private readonly DBContext.DbSetContext context=new DbSetContext();
         public List<User> GetAll()
         {
-            return context.User.ToList();
+            return context.User.Include(x=> x.Person).ToList();
         }
         public CreateUserResponse CreateNewUser(CreateUserRequest request)
         {
